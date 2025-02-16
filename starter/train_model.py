@@ -11,7 +11,10 @@ from joblib import dump
 
 # Add code to load in the data.
 data = pd.read_csv("../data/census.csv")
+#Trim
 data.columns = data.columns.str.strip()
+data = data.map(lambda x: x.strip() if isinstance(x, str) else x)
+
 data.drop("fnlgt", axis="columns", inplace=True)
 data.drop("education-num", axis="columns", inplace=True)
 data.drop("capital-gain", axis="columns", inplace=True)
