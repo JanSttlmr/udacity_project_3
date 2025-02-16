@@ -5,7 +5,7 @@ df = {
     "education": "Masters",
     "maritalStatus": "Never-married",
     "occupation": "Tech-support",
-    "relationship": "nmarried",
+    "relationship": "Unmarried",
     "race": "White",
     "sex": "Male",
     "hoursPerWeek": 20,
