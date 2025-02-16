@@ -84,7 +84,7 @@ async def predict(user_data: User):
         user_data.nativeCountry
     ]])
 
-    df_temp = pd.DataFrame(data=array, columns=[
+    df = pd.DataFrame(data=array, columns=[
         "age",
         "workclass",
         "education",
@@ -97,7 +97,7 @@ async def predict(user_data: User):
         "native-country",
     ])
     X, _, _, _ = data.process_data(
-        df_temp,
+        df,
         categorical_features=cat_features,
         encoder=encoder,
         lb=lb,
