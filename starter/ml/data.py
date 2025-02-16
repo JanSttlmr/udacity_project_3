@@ -43,11 +43,6 @@ def process_data(
         Trained LabelBinarizer if training is True, otherwise returns the binarizer
         passed in.
     """
-    X.columns = X.columns.str.strip()
-    X.drop("fnlgt", axis="columns", inplace=True)
-    X.drop("education-num", axis="columns", inplace=True)
-    X.drop("capital-gain", axis="columns", inplace=True)
-    X.drop("capital-loss", axis="columns", inplace=True)
 
     if label is not None:
         y = X[label]

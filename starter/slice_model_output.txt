@@ -1,0 +1,638 @@
+Category: workclass
+Slice:  ?
+Precision: 0.5
+Recall: 0.3055555555555556
+Fbeta: 0.3793103448275862
+
+
+Slice:  Local-gov
+Precision: 0.7083333333333334
+Recall: 0.5573770491803278
+Fbeta: 0.6238532110091743
+
+
+Slice:  Without-pay
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Private
+Precision: 0.6338862559241706
+Recall: 0.5532574974146846
+Fbeta: 0.5908337934842628
+
+
+Slice:  Self-emp-not-inc
+Precision: 0.5526315789473685
+Recall: 0.4064516129032258
+Fbeta: 0.4684014869888476
+
+
+Slice:  Federal-gov
+Precision: 0.796875
+Recall: 0.6375
+Fbeta: 0.7083333333333334
+
+
+Slice:  State-gov
+Precision: 0.7352941176470589
+Recall: 0.746268656716418
+Fbeta: 0.7407407407407407
+
+
+Slice:  Self-emp-inc
+Precision: 0.7121212121212122
+Recall: 0.7833333333333333
+Fbeta: 0.746031746031746
+
+
+Slice:  Never-worked
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+
+
+
+Category: education
+Slice:  Prof-school
+Precision: 0.8888888888888888
+Recall: 0.8571428571428571
+Fbeta: 0.8727272727272727
+
+
+Slice:  Doctorate
+Precision: 0.7777777777777778
+Recall: 0.7924528301886793
+Fbeta: 0.7850467289719626
+
+
+Slice:  10th
+Precision: 0.4166666666666667
+Recall: 0.35714285714285715
+Fbeta: 0.38461538461538464
+
+
+Slice:  1st-4th
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Masters
+Precision: 0.7333333333333333
+Recall: 0.7674418604651163
+Fbeta: 0.75
+
+
+Slice:  12th
+Precision: 0.75
+Recall: 0.375
+Fbeta: 0.5
+
+
+Slice:  11th
+Precision: 0.2
+Recall: 0.1111111111111111
+Fbeta: 0.14285714285714285
+
+
+Slice:  HS-grad
+Precision: 0.5414847161572053
+Recall: 0.36795252225519287
+Fbeta: 0.4381625441696113
+
+
+Slice:  7th-8th
+Precision: 0.4
+Recall: 0.2
+Fbeta: 0.26666666666666666
+
+
+Slice:  Some-college
+Precision: 0.5761316872427984
+Recall: 0.4794520547945205
+Fbeta: 0.5233644859813084
+
+
+Slice:  Bachelors
+Precision: 0.678082191780822
+Recall: 0.684331797235023
+Fbeta: 0.6811926605504587
+
+
+Slice:  Assoc-voc
+Precision: 0.5263157894736842
+Recall: 0.38461538461538464
+Fbeta: 0.4444444444444444
+
+
+Slice:  5th-6th
+Precision: 1.0
+Recall: 0.3333333333333333
+Fbeta: 0.5
+
+
+Slice:  9th
+Precision: 0.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Preschool
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Assoc-acdm
+Precision: 0.7931034482758621
+Recall: 0.48936170212765956
+Fbeta: 0.6052631578947368
+
+
+
+
+
+Category: marital-status
+Slice:  Married-spouse-absent
+Precision: 0.6666666666666666
+Recall: 0.2222222222222222
+Fbeta: 0.3333333333333333
+
+
+Slice:  Divorced
+Precision: 0.4523809523809524
+Recall: 0.2375
+Fbeta: 0.3114754098360656
+
+
+Slice:  Married-AF-spouse
+Precision: 1.0
+Recall: 0.25
+Fbeta: 0.4
+
+
+Slice:  Separated
+Precision: 0.5
+Recall: 0.18181818181818182
+Fbeta: 0.26666666666666666
+
+
+Slice:  Never-married
+Precision: 0.44680851063829785
+Recall: 0.21
+Fbeta: 0.2857142857142857
+
+
+Slice:  Widowed
+Precision: 0.3333333333333333
+Recall: 0.08333333333333333
+Fbeta: 0.13333333333333333
+
+
+Slice:  Married-civ-spouse
+Precision: 0.6661290322580645
+Recall: 0.6205860255447032
+Fbeta: 0.6425515363671723
+
+
+
+
+
+Category: occupation
+Slice:  ?
+Precision: 0.5
+Recall: 0.3055555555555556
+Fbeta: 0.3793103448275862
+
+
+Slice:  Prof-specialty
+Precision: 0.7450424929178471
+Recall: 0.7050938337801609
+Fbeta: 0.7245179063360881
+
+
+Slice:  Farming-fishing
+Precision: 0.4166666666666667
+Recall: 0.21739130434782608
+Fbeta: 0.2857142857142857
+
+
+Slice:  Transport-moving
+Precision: 0.43243243243243246
+Recall: 0.23880597014925373
+Fbeta: 0.3076923076923077
+
+
+Slice:  Adm-clerical
+Precision: 0.6404494382022472
+Recall: 0.5327102803738317
+Fbeta: 0.5816326530612245
+
+
+Slice:  Armed-Forces
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Priv-house-serv
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Other-service
+Precision: 0.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Machine-op-inspct
+Precision: 0.4838709677419355
+Recall: 0.29411764705882354
+Fbeta: 0.36585365853658536
+
+
+Slice:  Tech-support
+Precision: 0.7727272727272727
+Recall: 0.576271186440678
+Fbeta: 0.6601941747572816
+
+
+Slice:  Handlers-cleaners
+Precision: 0.2222222222222222
+Recall: 0.1111111111111111
+Fbeta: 0.14814814814814814
+
+
+Slice:  Exec-managerial
+Precision: 0.7165354330708661
+Recall: 0.7358490566037735
+Fbeta: 0.726063829787234
+
+
+Slice:  Protective-serv
+Precision: 0.5789473684210527
+Recall: 0.5789473684210527
+Fbeta: 0.5789473684210527
+
+
+Slice:  Craft-repair
+Precision: 0.5138888888888888
+Recall: 0.3756345177664975
+Fbeta: 0.4340175953079179
+
+
+Slice:  Sales
+Precision: 0.5813953488372093
+Recall: 0.5586592178770949
+Fbeta: 0.5698005698005698
+
+
+
+
+
+Category: relationship
+Slice:  Other-relative
+Precision: 0.5
+Recall: 0.14285714285714285
+Fbeta: 0.2222222222222222
+
+
+Slice:  Unmarried
+Precision: 0.3125
+Recall: 0.13157894736842105
+Fbeta: 0.18518518518518517
+
+
+Slice:  Own-child
+Precision: 0.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Wife
+Precision: 0.7070063694267515
+Recall: 0.6529411764705882
+Fbeta: 0.6788990825688074
+
+
+Slice:  Not-in-family
+Precision: 0.4875
+Recall: 0.24074074074074073
+Fbeta: 0.32231404958677684
+
+
+Slice:  Husband
+Precision: 0.6611265004616805
+Recall: 0.6199134199134199
+Fbeta: 0.6398570151921358
+
+
+
+
+
+Category: race
+Slice:  Asian-Pac-Islander
+Precision: 0.6923076923076923
+Recall: 0.5901639344262295
+Fbeta: 0.6371681415929203
+
+
+Slice:  White
+Precision: 0.6522801302931596
+Recall: 0.5705128205128205
+Fbeta: 0.6086626139817629
+
+
+Slice:  Amer-Indian-Eskimo
+Precision: 0.5
+Recall: 0.1
+Fbeta: 0.16666666666666666
+
+
+Slice:  Other
+Precision: 0.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Black
+Precision: 0.6181818181818182
+Recall: 0.4857142857142857
+Fbeta: 0.544
+
+
+
+
+
+Category: sex
+Slice:  Female
+Precision: 0.6424870466321243
+Recall: 0.47876447876447875
+Fbeta: 0.5486725663716814
+
+
+Slice:  Male
+Precision: 0.6521360069747166
+Recall: 0.5807453416149069
+Fbeta: 0.6143737166324436
+
+
+
+
+
+Category: native-country
+Slice:  Greece
+Precision: 0.4
+Recall: 0.5
+Fbeta: 0.4444444444444444
+
+
+Slice:  Scotland
+Precision: 1.0
+Recall: 0.5
+Fbeta: 0.6666666666666666
+
+
+Slice:  England
+Precision: 0.8
+Recall: 0.5
+Fbeta: 0.6153846153846154
+
+
+Slice:  Mexico
+Precision: 1.0
+Recall: 0.2
+Fbeta: 0.3333333333333333
+
+
+Slice:  El-Salvador
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Dominican-Republic
+Precision: 0.0
+Recall: 1.0
+Fbeta: 0.0
+
+
+Slice:  Philippines
+Precision: 0.8571428571428571
+Recall: 0.5
+Fbeta: 0.631578947368421
+
+
+Slice:  Puerto-Rico
+Precision: 0.3333333333333333
+Recall: 0.5
+Fbeta: 0.4
+
+
+Slice:  India
+Precision: 0.5555555555555556
+Recall: 0.7142857142857143
+Fbeta: 0.625
+
+
+Slice:  Haiti
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Guatemala
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Iran
+Precision: 0.8
+Recall: 0.6666666666666666
+Fbeta: 0.7272727272727273
+
+
+Slice:  Jamaica
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Poland
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Portugal
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Taiwan
+Precision: 1.0
+Recall: 0.3333333333333333
+Fbeta: 0.5
+
+
+Slice:  Hong
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Ecuador
+Precision: 1.0
+Recall: 0.5
+Fbeta: 0.6666666666666666
+
+
+Slice:  Thailand
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Germany
+Precision: 1.0
+Recall: 0.125
+Fbeta: 0.2222222222222222
+
+
+Slice:  ?
+Precision: 0.7
+Recall: 0.5833333333333334
+Fbeta: 0.6363636363636364
+
+
+Slice:  Yugoslavia
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Outlying-US(Guam-USVI-etc)
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  South
+Precision: 0.3333333333333333
+Recall: 0.3333333333333333
+Fbeta: 0.3333333333333333
+
+
+Slice:  Hungary
+Precision: 0.0
+Recall: 1.0
+Fbeta: 0.0
+
+
+Slice:  United-States
+Precision: 0.6451612903225806
+Recall: 0.5722460658082976
+Fbeta: 0.6065200909780136
+
+
+Slice:  Cuba
+Precision: 0.75
+Recall: 0.6
+Fbeta: 0.6666666666666666
+
+
+Slice:  France
+Precision: 1.0
+Recall: 0.6
+Fbeta: 0.75
+
+
+Slice:  Italy
+Precision: 1.0
+Recall: 0.6666666666666666
+Fbeta: 0.8
+
+
+Slice:  Canada
+Precision: 0.5
+Recall: 0.3
+Fbeta: 0.375
+
+
+Slice:  Nicaragua
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Trinadad&Tobago
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Peru
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Columbia
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Ireland
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  Cambodia
+Precision: 1.0
+Recall: 0.0
+Fbeta: 0.0
+
+
+Slice:  Japan
+Precision: 1.0
+Recall: 0.3333333333333333
+Fbeta: 0.5
+
+
+Slice:  Laos
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+Slice:  China
+Precision: 1.0
+Recall: 0.5
+Fbeta: 0.6666666666666666
+
+
+Slice:  Vietnam
+Precision: 0.5
+Recall: 1.0
+Fbeta: 0.6666666666666666
+
+
+Slice:  Honduras
+Precision: 1.0
+Recall: 1.0
+Fbeta: 1.0
+
+
+
+
+
