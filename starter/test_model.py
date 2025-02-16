@@ -6,7 +6,6 @@ import sys
 import os
 #sys.path.append(os.path.abspath(os.path.dirname("ml")))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname("model.py"), 'ml')))
-print(os.getcwd())
 from model import train_model, compute_model_metrics, inference
 
 # Mock dataset
