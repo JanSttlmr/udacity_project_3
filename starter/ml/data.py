@@ -44,6 +44,11 @@ def process_data(
         passed in.
     """
     X.columns = X.columns.str.strip()
+    X.drop("fnlgt", axis="columns", inplace=True)
+    X.drop("education-num", axis="columns", inplace=True)
+    X.drop("capital-gain", axis="columns", inplace=True)
+    X.drop("capital-loss", axis="columns", inplace=True)
+
     if label is not None:
         y = X[label]
         X = X.drop([label], axis=1)
@@ -54,17 +59,18 @@ def process_data(
     X_continuous = X.drop(*[categorical_features], axis=1)
 
     if training is True:
-        encoder = OneHotEncoder(sparse=False, handle_unknown="ignore")
+        encoder = OneHotEncoder(handle_unknown="ignore")
         lb = LabelBinarizer()
-        X_categorical = encoder.fit_transform(X_categorical)
+       # X_categorical = encoder.fit_transform(X_categorical)
+        X_categorical = encoder.fit_transform(X_categorical).toarray()
         y = lb.fit_transform(y.values).ravel()
     else:
-        X_categorical = encoder.transform(X_categorical)
+        X_categorical = encoder.transform(X_categorical).toarray()
+        #X_categorical = encoder.transform(X_categorical)
         try:
             y = lb.transform(y.values).ravel()
         # Catch the case where y is None because we're doing inference.
         except AttributeError:
             pass
-
     X = np.concatenate([X_continuous, X_categorical], axis=1)
     return X, y, encoder, lb
