@@ -4,8 +4,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import precision_score, recall_score, fbeta_score
 import sys
 import os
-#sys.path.append(os.path.abspath(os.path.dirname("../ml")))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname("model.py"), '../ml')))
+#sys.path.append(os.path.abspath(os.path.dirname("ml")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname("model.py"), 'ml')))
 from model import train_model, compute_model_metrics, inference
 
 # Mock dataset
